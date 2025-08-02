@@ -6,7 +6,7 @@ location="centralindia"
 appServicePlan="BM-AZD-Plan"
 webAppName="bmazdwebapp$RANDOM"  # Must be globally unique
 sku="B1"  # Pricing tier: F1, B1, S1, P1v2, etc.
-runtime="DOTNETCORE:8.0"  # Change as needed (.NET, Java, Node, Python, etc.)
+runtime="dotnet:8"  # Change as needed (.NET, Java, Node, Python, etc.)
 
 # 1. Create Resource Group
 az group create --name $resourceGroup --location $location
